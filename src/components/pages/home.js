@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{memo} from 'react'
 function home(props) {
     console.log('render Home component')
   return (
@@ -9,5 +9,4 @@ function home(props) {
    
   )
 }
-
-export default  React.memo(home);
+export default memo(home);
